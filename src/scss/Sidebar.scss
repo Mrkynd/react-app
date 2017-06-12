@@ -1,0 +1,29 @@
+.sidebar_aside {
+  display: block;
+  box-sizing: border-box;
+  float: right;
+  width: 30%;
+  height: 500px;
+  border: 2px dashed green;
+}
+
+.sidebar_ul {
+  list-style-type: none;
+  border: 1px solid orange;
+  padding: 0 0px;
+}
+
+.sidebar_ul {
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.sidebar_li {
+  text-align: center;
+}
+
+.sidebar_a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+}

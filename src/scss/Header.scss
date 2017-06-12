@@ -1,0 +1,42 @@
+@import './partials/main';
+
+#nav {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.nav_ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav_left {
+  float: left;
+}
+
+
+.nav_li, .nav_a {
+  display: inline-block;
+  color: $Accent_color;
+  text-decoration: none;
+  padding: 0px 18px;
+}
+
+.nav_a {
+  font-family: $Font_family;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.nav_a:hover:not(.active) {
+  color: #318ad4;
+  text-decoration: none;
+}
+
+.active {
+  color: #ff4eb3;
+}
